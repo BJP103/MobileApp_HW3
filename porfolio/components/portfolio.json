@@ -1,0 +1,20 @@
+[
+    {
+        "ID": 1,
+        "Title": "GGJ",
+        "Description": "Global game jam for CIST 2026",
+        "Img": "@/assets/images/ggj.png"
+    },
+    {
+        "ID": 2,
+        "Title": "Game",
+        "Description": "Game I  made for class",
+        "Img": "@/assets/images/game.png"
+    },
+    {
+        "ID": 3,
+        "Title": "VR Game",
+        "Description": "VR game I made  for class",
+        "Img": "@/assets/images/vrgame.png"
+    }
+]
