@@ -1,20 +1,22 @@
-[
-    {
-        "ID": 1,
-        "Title": "GGJ",
-        "Description": "Global game jam for CIST 2026",
-        "Img": "@/assets/images/ggj.png"
-    },
-    {
-        "ID": 2,
-        "Title": "Game",
-        "Description": "Game I  made for class",
-        "Img": "@/assets/images/game.png"
-    },
-    {
-        "ID": 3,
-        "Title": "VR Game",
-        "Description": "VR game I made  for class",
-        "Img": "@/assets/images/vrgame.png"
-    }
-]
+{
+    "Portfolio": [
+        {
+            "ID": 1,
+            "Title": "GGJ",
+            "Description": "Global game jam for CIST 2026",
+            "Img": "https://ggjv4.s3.us-west-1.amazonaws.com/files/styles/flexslider_full/s3/games/2026/124823/screenshot/Screenshot%202026-02-01%20130654.png?VersionId=Bh9GDSSo2FeKebVTPF5O44NTvt3nb273&itok=3v4TGWmL"
+        },
+        {
+            "ID": 2,
+            "Title": "Game",
+            "Description": "Game I  made for class",
+            "Img": "https://private-user-images.githubusercontent.com/195050182/525705748-cb622664-847a-4835-b58e-152178e55748.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzA4Njk2MzMsIm5iZiI6MTc3MDg2OTMzMywicGF0aCI6Ii8xOTUwNTAxODIvNTI1NzA1NzQ4LWNiNjIyNjY0LTg0N2EtNDgzNS1iNThlLTE1MjE3OGU1NTc0OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIxMlQwNDA4NTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03YmI0ZWI5YWUwMDE4NDlmMzBhNTk1NDIzNzUzZDViNjFjYzc4MzJmNzYxMzQ2NTMyYTU0YmRhZmZmYmY5ODQ5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.yyVCJLPDs-UU8r0cG51BKbmsjJnxGEWALUZ6UdWk_lM"
+        },
+        {
+            "ID": 3,
+            "Title": "GitHub",
+            "Description": "GitHub",
+            "Img": "https://avatars.githubusercontent.com/u/195050182?v=4"
+        }
+    ]
+}

@@ -5,7 +5,8 @@ import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { Test } from '@/components/PortfolioItem';
+
+import { PortfolioItem } from '@/components/PortfolioItem';
 
 export default function HomeScreen() {
   return (
@@ -22,8 +23,13 @@ export default function HomeScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Portfolio</ThemedText>
         {/*<HelloWave />*/}
+        
       </ThemedView>
-      <Test></Test>
+      <ThemedView style={styles.port}>
+            <PortfolioItem/>
+      </ThemedView>
+  
+
       {/*
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
@@ -79,5 +85,11 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     position: 'relative',
+  },
+  port:{
+    color: 'cyan',
+    fontFamily: 'sans-serif',
+    fontSize: 25,
+    fontWeight: 100,
   },
 });
